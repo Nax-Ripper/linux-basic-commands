@@ -39,8 +39,9 @@ Basic Commands for Linux
 37. **ssh [hostname]@[ip of other server]** - to access the other server from my server
 38. **ssh-keygen -t rsa** - to generatet key
 39. **netstat** -  to see the network and its running ports
-40. **nslookup [domain address]** - show the dns propeties of the domain 
-41. **curl [option] [url]** - get or post in cmd
-42. **service iptables stop** - to stop the firewall
-43. **df**  - to display amount of disk space being used by the system
-44. **sudo du -h -d 1 /var/** - to see which location is consuming lot of disk space
+40. **nslookup [domain address]** - show the dns propeties of the domain
+41. **usermod -aG sudo [username]** - Adding user to sudo group  
+42. **curl [option] [url]** - get or post in cmd
+43. **service iptables stop** - to stop the firewall
+44. **df**  - to display amount of disk space being used by the system
+45. **sudo du -h -d 1 /var/** - to see which location is consuming lot of disk space
